@@ -116,10 +116,15 @@ export function Contact() {
                       <input type="text" placeholder="e.g. UAE, USA, Germany..." className="w-full bg-white border border-gray-300 px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" required />
                     </div>
                     <div className="space-y-2">
-                      <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Casting Category</label>
+                      <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Capability / Category</label>
                       <select className="w-full bg-white border border-gray-300 px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all appearance-none rounded-none">
                         <option>Select Category...</option>
                         <option>Cast Iron Components</option>
+                        <option>Aluminium Die Castings (HPDC)</option>
+                        <option>Pressure Die Casting (Zinc / Magnesium)</option>
+                        <option>Traditional Sand Casting</option>
+                        <option>Advanced Machining — VMC / HMC / CNC</option>
+                        <option>Powder Coating &amp; Surface Finishing</option>
                         <option>Earthing &amp; Grounding Equipment</option>
                         <option>Construction Equipment Castings</option>
                         <option>OEM Precision Castings</option>

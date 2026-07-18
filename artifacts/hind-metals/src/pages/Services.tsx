@@ -6,23 +6,23 @@ import { CheckCircle2, Truck, Scissors, ShieldCheck, Clock } from "lucide-react"
 const services = [
   {
     icon: Scissors,
-    title: "Custom Pattern, Mould & Die Engineering",
-    desc: "In-house pattern shop and die design capability producing wooden, aluminium, and resin patterns plus high-pressure die tooling from customer drawings or samples. Tooling optimised for dimensional accuracy, yield, and casting integrity across grey iron, ductile iron, aluminium die castings, and alloy grades."
-  },
-  {
-    icon: Truck,
-    title: "International Export & Logistics",
-    desc: "End-to-end export management — packaging, freight forwarding, LCL/FCL coordination, and full documentation (MTC, COO, BL, inspection reports) for smooth customs clearance at destination ports worldwide."
+    title: "Sand Casting & Die Casting",
+    desc: "Traditional green sand and resin sand casting for grey iron, ductile iron, and steel. High-pressure and low-pressure die casting (HPDC/LPDC) in aluminium, zinc, and magnesium alloys. Pattern and die tooling designed in-house from customer drawings."
   },
   {
     icon: ShieldCheck,
-    title: "Quality Assurance & Third-Party Inspection",
-    desc: "Spectrometric chemical analysis, Brinell/Rockwell hardness testing, dimensional CMM inspection, and visual QC on every production run. Third-party inspection by SGS or Bureau Veritas available on request."
+    title: "Advanced Machining — VMC / HMC / CNC",
+    desc: "In-house Vertical Machining Centres (VMC), Horizontal Machining Centres (HMC), and CNC turning centres deliver post-casting precision machining to tight tolerances. Drilling, boring, tapping, surface grinding, and CMM inspection — components arrive fully finished and assembly-ready."
+  },
+  {
+    icon: Truck,
+    title: "Powder Coating & Surface Finishing",
+    desc: "Electrostatic powder coating with curing oven for cast iron, aluminium die cast, and steel parts. Shot blasting pre-treatment, RAL colour matching, and epoxy/polyester powder options — providing durable, corrosion-resistant finishes to specification."
   },
   {
     icon: Clock,
-    title: "OEM Long-Term Supply Programmes",
-    desc: "Dedicated casting supply agreements for OEM manufacturers — scheduled production runs, reserved foundry capacity, and price-locked contracts to support your assembly planning cycle without supply disruptions."
+    title: "Quality Assurance & Certified Export",
+    desc: "Spectrometric analysis, hardness testing, CMM dimensional inspection, and third-party inspection by SGS/Bureau Veritas. Full export documentation — MTC, COO, BL — and OEM long-term supply agreements with reserved foundry capacity."
   }
 ];
 

@@ -221,9 +221,9 @@ export function Home() {
               
               <div className="space-y-8">
                 {[
-                  { title: "Custom Pattern & Mould Design", desc: "In-house pattern making and mould engineering to produce castings precisely to your technical drawings and dimensional tolerances." },
-                  { title: "Quality Casting & Inspection", desc: "Dimensional inspection, chemical composition analysis, hardness testing, and visual QC — every casting certified before dispatch." },
-                  { title: "Export-Ready Documentation", desc: "Material Test Certificates, third-party inspection by SGS/BV, and full export documentation for ASTM, EN, and IS-compliant shipments." }
+                  { title: "Sand Casting & Pressure Die Casting", desc: "Traditional sand casting for grey/ductile iron and steel. High-pressure die casting (HPDC) for aluminium, zinc, and magnesium alloy components — all tooling designed in-house." },
+                  { title: "VMC / HMC / CNC Precision Machining", desc: "Post-casting machining on Vertical & Horizontal Machining Centres and CNC turning centres — delivering assembly-ready, dimensionally verified finished parts." },
+                  { title: "Powder Coating & Certified Export", desc: "In-house electrostatic powder coating, shot blasting, and RAL colour matching. Full MTC, COO, and third-party inspection documentation for every export shipment." }
                 ].map((service, i) => (
                   <motion.div 
                     key={service.title}
