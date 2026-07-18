@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Hind Metals"
+version = "1.0.0"
+id = "artifacts/hind-metals"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20019
+
+[services.development]
+run = "pnpm --filter @workspace/hind-metals run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/hind-metals", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/hind-metals/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20019"
+BASE_PATH = "/"
