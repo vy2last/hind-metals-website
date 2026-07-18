@@ -35,7 +35,7 @@ export function About() {
             
             <div className="prose prose-lg prose-gray max-w-none">
               <p className="text-xl text-gray-600 leading-relaxed font-medium mb-8">
-                Founded in Rajasthan — one of India's established industrial manufacturing belts — Hind Metals has grown over 25 years from a foundry serving local industries into a certified metal casting manufacturer exporting to clients across Asia, the Middle East, Africa, and Europe. Our foundation is unchanged: no casting leaves our facility without meeting spec.
+                Founded in Rajasthan — one of India's established industrial manufacturing belts — Hind Metals has grown over 25 years from a foundry serving local industries into a certified metal casting manufacturer exporting to clients across Asia, the Middle East, Africa, Europe, and the United States. Our foundation is unchanged: no casting leaves our facility without meeting spec.
               </p>
               
               <p>
@@ -72,6 +72,29 @@ export function About() {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trusted By */}
+      <section className="py-20 bg-white border-t border-gray-100">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-12">Trusted by leading manufacturers &amp; engineers worldwide</p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16">
+            {[
+              { name: "VitaMax", region: "International" },
+              { name: "Michigan Engineering", region: "United States" },
+              { name: "Kings Mill", region: "United Kingdom" },
+            ].map((client) => (
+              <div key={client.name} className="flex flex-col items-center gap-2 group">
+                <div className="w-48 h-16 border-2 border-gray-200 group-hover:border-primary transition-colors duration-300 flex items-center justify-center px-6">
+                  <span className="font-heading font-bold text-lg uppercase tracking-widest text-charcoal group-hover:text-primary transition-colors duration-300">
+                    {client.name}
+                  </span>
+                </div>
+                <span className="text-xs text-gray-400 font-medium tracking-wider uppercase">{client.region}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
