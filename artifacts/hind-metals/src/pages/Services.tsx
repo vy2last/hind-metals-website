@@ -6,8 +6,8 @@ import { CheckCircle2, Truck, Scissors, ShieldCheck, Clock } from "lucide-react"
 const services = [
   {
     icon: Scissors,
-    title: "Custom Pattern & Mould Engineering",
-    desc: "In-house pattern shop producing wooden, aluminium, and resin patterns from customer drawings or samples. Mould design optimised for dimensional accuracy, yield, and casting integrity across grey iron, ductile iron, and alloy grades."
+    title: "Custom Pattern, Mould & Die Engineering",
+    desc: "In-house pattern shop and die design capability producing wooden, aluminium, and resin patterns plus high-pressure die tooling from customer drawings or samples. Tooling optimised for dimensional accuracy, yield, and casting integrity across grey iron, ductile iron, aluminium die castings, and alloy grades."
   },
   {
     icon: Truck,
@@ -56,7 +56,7 @@ export function Services() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-charcoal uppercase tracking-tight mb-6">Full-Cycle Foundry Manufacturing</h2>
             <p className="text-lg text-gray-600">
-              From pattern design and mould engineering through casting, fettling, machining, inspection, and export — we manage the complete manufacturing cycle so your procurement team receives certified, production-ready castings at your door.
+              From pattern design, die tooling, and mould engineering through casting (iron, aluminium die casting, and alloy), fettling, machining, inspection, and export — we manage the complete manufacturing cycle so your procurement team receives certified, production-ready parts at your door.
             </p>
           </div>
 

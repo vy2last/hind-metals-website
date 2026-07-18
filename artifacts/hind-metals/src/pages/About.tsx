@@ -39,7 +39,7 @@ export function About() {
               </p>
               
               <p>
-                OEM manufacturers, EPC contractors, infrastructure developers, and industrial equipment makers rely on us for custom cast iron and alloy castings because we operate like a precision instrument — consistent, traceable, and accountable. From pattern design through final casting, machining, and inspection, every component is manufactured and certified to your exact technical requirements. We understand that an off-spec casting doesn't just cost money — it shuts down an assembly line or stalls a project.
+                OEM manufacturers, EPC contractors, infrastructure developers, and industrial equipment makers rely on us for custom cast iron, aluminium die castings, and alloy castings because we operate like a precision instrument — consistent, traceable, and accountable. From pattern design and high-pressure die tooling through final casting, machining, and inspection, every component is manufactured and certified to your exact technical requirements. We understand that an off-spec casting doesn't just cost money — it shuts down an assembly line or stalls a project.
               </p>
 
               <div className="my-12 grid grid-cols-1 md:grid-cols-2 gap-8">

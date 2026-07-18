@@ -41,7 +41,7 @@ export function Home() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">Built for Industry.</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed">
-                Custom metal castings and foundry-manufactured industrial components for OEM manufacturers, EPC contractors, and infrastructure developers worldwide. Cast iron, alloy castings, earthing equipment, and precision engineering — made in India, trusted globally.
+                Custom metal castings and foundry-manufactured industrial components for OEM manufacturers, EPC contractors, and infrastructure developers worldwide. Cast iron, aluminium die castings, alloy castings, earthing equipment, and precision engineering — made in India, trusted globally.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
@@ -114,7 +114,7 @@ export function Home() {
                 Cast in India.<br />Trusted Worldwide.
               </h3>
               <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-                Hind Metals is a certified metal casting and foundry manufacturer producing custom cast iron components, earthing equipment, construction castings, and precision OEM parts for clients across Asia, the Middle East, Europe, and beyond.
+                Hind Metals is a certified metal casting and foundry manufacturer producing custom cast iron components, aluminium die castings, earthing equipment, construction castings, and precision OEM parts for clients across Asia, the Middle East, Europe, and beyond.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
                 Rooted in Rajasthan — India's established industrial manufacturing belt — we combine decades of foundry expertise with rigorous quality control and international export logistics to deliver castings that meet global engineering standards every time.
@@ -169,8 +169,8 @@ export function Home() {
                 img: productsCopperImg
               },
               { 
-                name: "OEM Precision Castings", 
-                desc: "Custom engineered castings to buyer's drawings — alloy steel, carbon steel, and special-grade iron for OEM assembly lines.",
+                name: "Aluminium Die Castings", 
+                desc: "High-pressure aluminium die castings for OEM components — lightweight, tight-tolerance parts for automotive, electrical, and industrial applications.",
                 img: productsAluminumImg
               }
             ].map((product, i) => (

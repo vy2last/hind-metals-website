@@ -63,6 +63,20 @@ const categories = [
     img: productsSteelImg,
   },
   {
+    id: "aluminium-die-casting",
+    name: "Aluminium Die Castings",
+    desc: "High-pressure die casting (HPDC) in aluminium alloys (ADC12, A380, LM6, and custom grades) for lightweight, high-volume OEM components. Dimensional repeatability within ±0.1mm, smooth as-cast finish, and fully machinable — suited to automotive, electrical, and industrial applications.",
+    items: [
+      "Automotive Engine & Gearbox Housings",
+      "Electrical Junction & Enclosure Boxes",
+      "Pump & Motor End Covers",
+      "Heat Sinks & Thermal Plates",
+      "Bracket & Structural Die Castings",
+      "Custom OEM Parts to Drawing",
+    ],
+    img: productsAluminumImg,
+  },
+  {
     id: "specialty",
     name: "Specialty Alloy Castings",
     desc: "High-performance castings in specialty alloy grades for demanding environments — elevated temperatures, corrosive media, high-wear surfaces, and critical structural applications requiring tighter tolerances.",
@@ -98,7 +112,7 @@ export function Products() {
             transition={{ delay: 0.1 }}
             className="text-xl text-gray-300 max-w-3xl mx-auto"
           >
-            Custom metal castings manufactured from buyer drawings in grey iron, ductile iron, alloy steel, and specialty grades. ASTM, EN, IS, and BS compliant — certified and export ready.
+            Custom metal castings manufactured from buyer drawings in grey iron, ductile iron, aluminium die casting (HPDC), alloy steel, and specialty grades. ASTM, EN, IS, and BS compliant — certified and export ready.
           </motion.p>
         </div>
       </section>
@@ -175,16 +189,16 @@ export function Products() {
             International Casting Standards &amp; Certifications
           </h3>
           <p className="text-gray-400 max-w-2xl mx-auto text-sm mb-10">
-            All castings manufactured and certified to international standards. Documentation provided per buyer specification — third-party inspection available on request.
+            All castings — iron, aluminium die cast, and alloy — manufactured and certified to international standards. Documentation provided per buyer specification; third-party inspection available on request.
           </p>
           <div className="flex flex-wrap justify-center gap-8 opacity-80">
             <span className="font-heading font-bold text-xl tracking-widest uppercase">ASTM A48 / A536</span>
             <span className="font-heading font-bold text-xl tracking-widest uppercase">EN 1561 / 1563</span>
             <span className="font-heading font-bold text-xl tracking-widest uppercase">IS 210 / IS 1865</span>
+            <span className="font-heading font-bold text-xl tracking-widest uppercase">ADC12 / A380 / LM6</span>
             <span className="font-heading font-bold text-xl tracking-widest uppercase">BS EN 124</span>
             <span className="font-heading font-bold text-xl tracking-widest uppercase">ISO 9001</span>
             <span className="font-heading font-bold text-xl tracking-widest uppercase">SGS Inspectable</span>
-            <span className="font-heading font-bold text-xl tracking-widest uppercase">Mill Test Certified</span>
           </div>
         </div>
       </section>
