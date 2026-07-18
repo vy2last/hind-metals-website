@@ -46,7 +46,7 @@ export function Navbar() {
             </a>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-primary font-semibold">Exporting to 30+ Countries</span>
+            <span className="text-primary font-semibold">Custom Foundry Manufacturing · 30+ Export Countries</span>
             <span className="text-gray-600">·</span>
             <span>RIICOO Industrial Area, Jaipur, India</span>
           </div>
@@ -73,7 +73,7 @@ export function Navbar() {
               />
               <div className="flex flex-col">
                 <span className="font-heading font-bold text-xl md:text-2xl text-charcoal tracking-tight leading-none uppercase">HIND METALS</span>
-                <span className="text-[10px] md:text-xs text-gray-500 font-medium tracking-widest uppercase mt-1">Global Metals Exporter</span>
+                <span className="text-[10px] md:text-xs text-gray-500 font-medium tracking-widest uppercase mt-1">Metal Casting &amp; Foundry Manufacturer</span>
               </div>
             </Link>
 

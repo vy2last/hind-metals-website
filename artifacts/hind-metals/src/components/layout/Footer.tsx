@@ -19,7 +19,7 @@ export function Footer() {
               <span className="font-heading font-bold text-2xl tracking-tight uppercase">HIND METALS</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              ISO-certified metals exporter from India. Supplying ferrous and non-ferrous metals to OEM manufacturers, EPC contractors, and distributors in 30+ countries. Mill-certified quality. Export-ready operations.
+              ISO-certified metal casting and foundry manufacturer from Jaipur, India. Custom cast iron components, earthing equipment, construction castings, and OEM precision parts supplied to clients in 30+ countries. Engineering quality. Export-ready operations.
             </p>
             <div className="flex space-x-4">
               {/* Social placeholders if any */}
@@ -49,14 +49,14 @@ export function Footer() {
 
           {/* Products */}
           <div>
-            <h4 className="font-heading text-lg font-bold uppercase tracking-wider mb-6">Materials</h4>
+            <h4 className="font-heading text-lg font-bold uppercase tracking-wider mb-6">Castings</h4>
             <ul className="space-y-4">
               {[
-                "Steel & Iron",
-                "Copper & Brass",
-                "Aluminum",
-                "Stainless Steel",
-                "Specialty Alloys"
+                "Cast Iron Components",
+                "Earthing Equipment",
+                "Construction Castings",
+                "OEM Precision Castings",
+                "Specialty Alloy Castings"
               ].map((product) => (
                 <li key={product}>
                   <Link href="/products" className="text-gray-400 hover:text-primary transition-colors block">

@@ -21,7 +21,7 @@ export function Contact() {
             transition={{ delay: 0.1 }}
             className="text-xl text-gray-300 max-w-2xl mx-auto"
           >
-            Request an export quote, discuss procurement volumes, or connect with our international sales team. We respond within 24 hours.
+            Submit your casting requirements, technical drawings, or RFQ. Our foundry engineering team responds within 24 hours with pricing, lead time, and manufacturing feasibility.
           </motion.p>
         </div>
       </section>
@@ -85,7 +85,7 @@ export function Contact() {
             {/* Form */}
             <div className="lg:w-2/3">
               <div className="bg-light-steel p-8 md:p-12 border-t-4 border-primary">
-                <h3 className="text-2xl font-heading font-bold text-charcoal uppercase tracking-tight mb-6">Request an Export Quote</h3>
+                <h3 className="text-2xl font-heading font-bold text-charcoal uppercase tracking-tight mb-6">Request a Casting Quote</h3>
                 <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -116,23 +116,23 @@ export function Contact() {
                       <input type="text" placeholder="e.g. UAE, USA, Germany..." className="w-full bg-white border border-gray-300 px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" required />
                     </div>
                     <div className="space-y-2">
-                      <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Destination Port</label>
-                      <input type="text" placeholder="e.g. Jebel Ali, Rotterdam..." className="w-full bg-white border border-gray-300 px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" />
+                      <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Casting Category</label>
+                      <select className="w-full bg-white border border-gray-300 px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all appearance-none rounded-none">
+                        <option>Select Category...</option>
+                        <option>Cast Iron Components</option>
+                        <option>Earthing &amp; Grounding Equipment</option>
+                        <option>Construction Equipment Castings</option>
+                        <option>OEM Precision Castings</option>
+                        <option>Specialty Alloy Castings</option>
+                        <option>Other / Multiple</option>
+                      </select>
                     </div>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Material Category</label>
-                      <select className="w-full bg-white border border-gray-300 px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all appearance-none rounded-none">
-                        <option>Select Material...</option>
-                        <option>Steel &amp; Iron</option>
-                        <option>Copper &amp; Brass</option>
-                        <option>Aluminum</option>
-                        <option>Stainless Steel</option>
-                        <option>Specialty Alloys</option>
-                        <option>Other / Multiple</option>
-                      </select>
+                      <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Alloy / Grade Required</label>
+                      <input type="text" placeholder="e.g. Grey Iron IS 210 Gr. FG 260, ASTM A536..." className="w-full bg-white border border-gray-300 px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all" />
                     </div>
                     <div className="space-y-2">
                       <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Preferred Incoterms</label>
@@ -141,23 +141,23 @@ export function Contact() {
                         <option>FOB – Nhava Sheva (Mumbai)</option>
                         <option>CIF – Destination Port</option>
                         <option>CFR – Destination Port</option>
-                        <option>EXW – Jaipur Yard</option>
+                        <option>EXW – Jaipur Factory</option>
                         <option>Open to Discussion</option>
                       </select>
                     </div>
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Specifications, Grades &amp; Quantities</label>
+                    <label className="text-sm font-bold uppercase tracking-wider text-charcoal">Casting Requirements &amp; Specifications</label>
                     <textarea 
                       rows={5} 
-                      placeholder="Please include material grade, dimensions (thickness/width/length), quantity (MT), required standards (ASTM/EN/IS), and any special requirements..."
+                      placeholder="Please describe the component, dimensions/weight, quantity (pieces or MT), required standards (ASTM/EN/IS/BS), surface finish, and any drawing references or special requirements..."
                       className="w-full bg-white border border-gray-300 px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all resize-none"
                     ></textarea>
                   </div>
 
                   <Button type="submit" size="lg" className="w-full md:w-auto">
-                    Send Export Inquiry
+                    Submit Casting Inquiry
                   </Button>
                 </form>
               </div>
