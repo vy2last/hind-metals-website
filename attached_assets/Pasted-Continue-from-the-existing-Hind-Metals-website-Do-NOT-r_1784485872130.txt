@@ -1,0 +1,124 @@
+Continue from the existing Hind Metals website. Do NOT redesign the website or change its appearance.
+
+The website is already deployed on Vercel.
+
+Supabase has already been configured and these environment variables already exist:
+
+- VITE_SUPABASE_URL
+- VITE_SUPABASE_PUBLISHABLE_KEY
+
+A private Supabase Storage bucket named "rfq-attachments" already exists.
+
+FIRST inspect the entire codebase and tell me:
+
+1. Which Request Quote forms exist.
+2. Which Contact forms exist.
+3. How they currently submit.
+4. Whether a backend already exists.
+5. Whether any email functionality already exists.
+
+Then implement a production-quality backend.
+
+Requirements:
+
+DATABASE
+- Create a normalized schema for RFQs.
+- Use proper SQL migrations.
+- Enable Row Level Security.
+- Create secure RLS policies.
+- Never expose private credentials.
+
+RFQ
+Store:
+
+- id
+- created_at
+- full_name
+- company
+- email
+- phone
+- country
+- product_name
+- material
+- quantity
+- message
+- attachment_url
+- attachment_filename
+- source_domain
+- ip_address if available
+- status
+- notes
+
+Status defaults to:
+New
+
+FILE UPLOADS
+
+Support:
+
+PDF
+STEP
+STP
+DWG
+DXF
+ZIP
+RAR
+JPG
+PNG
+
+Upload to the existing private bucket:
+rfq-attachments
+
+FORMS
+
+Connect EVERY existing Request Quote and Contact form.
+
+Do not duplicate code.
+
+Create reusable validation.
+
+Use React Hook Form if the project already uses it.
+Otherwise use the existing style.
+
+UX
+
+Loading state.
+
+Progress indicator during uploads.
+
+Success page.
+
+Proper error messages.
+
+Prevent duplicate submissions.
+
+Prevent spam with honeypot.
+
+Basic rate limiting.
+
+Code quality
+
+Follow the project's architecture.
+
+No duplicated logic.
+
+Strong typing.
+
+No breaking UI changes.
+
+After implementation:
+
+1. Run locally.
+2. Test uploads.
+3. Test database writes.
+4. Test validation.
+5. Show me every migration.
+6. Explain the architecture.
+7. Commit everything.
+8. Push to GitHub.
+
+STOP AFTER THIS.
+
+Do NOT implement emails yet.
+Do NOT implement an admin dashboard yet.
+Those will be done in the next phase.

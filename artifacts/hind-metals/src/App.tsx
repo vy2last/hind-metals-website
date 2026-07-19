@@ -6,6 +6,7 @@ import { About } from './pages/About';
 import { Products } from './pages/Products';
 import { Services } from './pages/Services';
 import { Contact } from './pages/Contact';
+import { Success } from './pages/Success';
 
 const queryClient = new QueryClient();
 
@@ -22,11 +23,12 @@ function Router() {
   return (
     <Layout>
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route path="/"         component={Home} />
+        <Route path="/about"    component={About} />
         <Route path="/products" component={Products} />
         <Route path="/services" component={Services} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/contact"  component={Contact} />
+        <Route path="/success"  component={Success} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
